@@ -1,0 +1,47 @@
+{
+  "status": "historical_saved_outputs_not_reproduced",
+  "bleu_scale": "0_to_1",
+  "wer_is_accuracy": false,
+  "embedding_cosine_is_accuracy": false,
+  "runs": [
+    {
+      "experiment": "vivit_translation",
+      "selection": "training_data_path",
+      "examples": 500,
+      "wer": 0.1171,
+      "bleu": 0.7481,
+      "held_out_result_valid": false
+    },
+    {
+      "experiment": "vivit_gloss_recognition",
+      "selection": "dev",
+      "examples": 519,
+      "wer": 0.9485,
+      "bleu": 0.0092,
+      "mean_cosine_approx": 0.6159
+    },
+    {
+      "experiment": "vivit_gloss_recognition",
+      "selection": "train_subset",
+      "examples": 500,
+      "wer": 0.9384,
+      "bleu": 0.011,
+      "mean_cosine_approx": 0.6007
+    },
+    {
+      "experiment": "vivit_gloss_recognition",
+      "selection": "test",
+      "examples": 642,
+      "wer": 0.9472,
+      "bleu": 0.0163,
+      "mean_cosine_approx": 0.6073
+    },
+    {
+      "experiment": "videomae_experiment",
+      "selection": "final_training_attempt",
+      "epochs": 100,
+      "training_batch_errors": 200,
+      "successful_training_demonstrated": false
+    }
+  ]
+}

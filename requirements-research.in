@@ -1,0 +1,18 @@
+# Packages imported by the original experiments. Original versions were not recorded.
+# This is an inventory, not a lock file or a verified compatible training environment.
+torch
+transformers
+numpy
+av
+opencv-python
+mediapipe
+pandas
+openpyxl
+scikit-learn
+sentence-transformers
+nltk
+jiwer
+torchinfo
+tqdm
+tabulate
+jupyterlab
