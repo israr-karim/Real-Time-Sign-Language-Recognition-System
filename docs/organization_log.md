@@ -15,5 +15,6 @@
 - Documented historical metrics, known limitations, and the next experimental repairs.
 - Made definition fingerprints independent of Python's `ast.dump` display format, and added hosted validation on Python 3.11 and 3.14.
 - Added the official dataset source, preparation/provenance requirements, bibliography, software citation, checkpoint license inventory, and a repository-practice review. Project manuscripts are confirmed as unpublished university-submitted drafts; their files and metadata await review. The original-code license remains undecided.
+- Reviewed the supplied final thesis report, verified its institutional record, credited all five authors, and added the official links, citation, and implementation-scope notes. The institution's redistribution statement is documented; the report is linked rather than bundled as a PDF.
 
 The original downloaded notebook files were left unchanged. Original output streams are not included; aggregate observations are preserved in the experiment review and results JSON. No training result was regenerated or improved by this organization work.

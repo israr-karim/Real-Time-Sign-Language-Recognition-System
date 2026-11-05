@@ -2,7 +2,9 @@
 
 Project manuscripts and papers used as sources need distinct attribution. Dataset and backbone references are already recorded in [references.bib](references.bib).
 
-The project author confirmed on **2026-11-05** that the review manuscript and IEEE-formatted manuscript are **unpublished drafts submitted to the university**. They have not been represented here as peer-reviewed or IEEE publications. Their titles, complete author lists, files, and versions will be indexed after the manuscripts are supplied and reviewed against the documented experimental limitations.
+The supplied full thesis report is now identified in the [thesis record](thesis.md), with all authors, its institutional repository link, and implementation-scope notes. It is distinct from a peer-reviewed journal or conference paper.
+
+The project author confirmed on **2026-11-05** that the separate review manuscript and IEEE-formatted manuscript are **unpublished drafts submitted to the university**. They have not been represented here as peer-reviewed or IEEE publications. Their titles, complete author lists, files, and versions will be indexed after those manuscripts are supplied and reviewed against the documented experimental limitations.
 
 ## Papers authored as part of this project
 

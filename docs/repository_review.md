@@ -12,7 +12,8 @@ Reviewed on **2026-11-05** against the linked publisher guidance, [GitHub citati
 | Software citation | `CITATION.cff`, without an invented DOI or publication claim | Added |
 | Original-code licensing | No license selected | Owner decision remains |
 | Dataset/model redistribution | No bundled data or weights; checkpoint terms listed | Dataset terms still need verification |
-| Project manuscripts | Confirmed as unpublished university-submitted drafts; titles, author lists, files, and versions still pending | Status established; files await review |
+| Associated thesis | Title, all authors, institutional record, rights statement, and implementation-scope review | Indexed with official links |
+| Separate project manuscripts | Review and IEEE-formatted manuscripts are unpublished university-submitted drafts | Files and complete metadata await review |
 | Training reproducibility | Missing original environment, conversion artifacts, run/checkpoint lineage | Incomplete |
 | Scientific validity | Known sampling, token-layout, split, and failed-batch defects | Unresolved |
 
