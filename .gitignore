@@ -35,3 +35,4 @@ dist/
 *.parquet
 *.npy
 *.npz
+phoenix-2014-T*.tar.gz

@@ -21,6 +21,8 @@ The original package versions were not recorded in the supplied notebooks. `requ
 
 The original experiments used customized Excel annotations and converted MP4 video files. The workbook, conversion pipeline, trained checkpoints, and a verified filename-to-annotation manifest were not supplied with these notebooks. Downloading the public dataset alone does not recreate those local artifacts.
 
+Start from the [official dataset source and preparation notes](dataset.md). Record the downloaded archive version and checksum before conversion. Dataset access does not establish permission to redistribute its videos or annotations.
+
 ## Configure local data
 
 Before starting Jupyter, export:
@@ -41,7 +43,7 @@ phoenix2014t/
   annotations.xlsx
 ```
 
-The notebooks retain their original workbook sheet names and target-column assumptions. Check them against your workbook rather than renaming labels to conceal a target mismatch. A secondary historical development-CSV variable maps to `annotations/dev.csv` under the dataset root.
+The notebooks retain their original workbook sheet names and target-column assumptions. Verify those fields against the intended task and preserve an explicit distinction between gloss labels and translation text. A secondary historical development-CSV variable maps to `annotations/dev.csv` under the dataset root.
 
 Outputs now live under separate directories:
 

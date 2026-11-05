@@ -1,5 +1,7 @@
 # Sign Language Video Modeling
 
+[![Code and notebook validation](https://github.com/israr-karim/Real-Time-Sign-Language-Recognition-System/actions/workflows/validate.yml/badge.svg)](https://github.com/israr-karim/Real-Time-Sign-Language-Recognition-System/actions/workflows/validate.yml)
+
 Undergraduate experiments in continuous sign-language recognition and translation using pretrained video encoders, spatial attention, temporal modelling, and an autoregressive text decoder.
 
 This repository contains reorganized thesis code by **Kazi Israrul Karim**, with readable notebooks, reusable model modules, and a record of the experiments' limitations. The historical GitHub repository name is retained; real-time performance has not been established.
@@ -25,6 +27,12 @@ flowchart LR
     E --> F[Autoregressive Transformer decoder]
     F --> G[Gloss sequence or text]
 ```
+
+## Dataset and references
+
+The experiments use a locally prepared version of **RWTH-PHOENIX-Weather 2014T**. Obtain the upstream data from the [official RWTH Aachen dataset page](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX-2014-T/), which also specifies the dataset citation. The [dataset guide](docs/dataset.md) distinguishes the upstream release from the converted MP4 files and customized Excel annotations expected by this code.
+
+Dataset and model references are recorded in [the bibliography](docs/references.bib). Checkpoint sources and their reported license terms are listed in [third-party resources](THIRD_PARTY.md). The [software citation](CITATION.cff) describes this repository and does not imply a peer-reviewed publication.
 
 ## Current status
 
@@ -52,5 +60,12 @@ The research notebooks additionally need the packages listed in `requirements-re
 - [Setup and reproduction limitations](docs/reproduction.md)
 - [Changes made during organization](docs/organization_log.md)
 - [Prioritized improvement plan](docs/roadmap.md)
+- [Dataset and local preparation](docs/dataset.md)
+- [Repository-practice review](docs/repository_review.md)
+- [Adding project papers and references](docs/papers.md)
 
 The thesis was a group project. The implementation contribution represented by these notebooks is attributed to Kazi Israrul Karim. Dataset, pretrained-model, and library contributions belong to their respective authors. Dataset files and pretrained weights are not included.
+
+## Licensing status
+
+An open-source license for the original project code has not yet been selected. Dataset, checkpoint, paper, and library terms are separate; see [third-party resources](THIRD_PARTY.md). Public access to the repository does not grant a blanket license to those resources.

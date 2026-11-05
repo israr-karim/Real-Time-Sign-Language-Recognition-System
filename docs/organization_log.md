@@ -14,5 +14,6 @@
 - Added a standard-library overview notebook and formatting/schema validation tooling.
 - Documented historical metrics, known limitations, and the next experimental repairs.
 - Made definition fingerprints independent of Python's `ast.dump` display format, and added hosted validation on Python 3.11 and 3.14.
+- Added the official dataset source, preparation/provenance requirements, bibliography, software citation, checkpoint license inventory, and a repository-practice review. Project manuscripts are confirmed as unpublished university-submitted drafts; their files and metadata await review. The original-code license remains undecided.
 
 The original downloaded notebook files were left unchanged. Original output streams are not included; aggregate observations are preserved in the experiment review and results JSON. No training result was regenerated or improved by this organization work.

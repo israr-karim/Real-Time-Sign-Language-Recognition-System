@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+type: software
+message: "Cite this repository as software. Cite the dataset and pretrained models separately using docs/references.bib and THIRD_PARTY.md."
+title: "Sign Language Video Modeling"
+authors:
+  - family-names: "Karim"
+    given-names: "Kazi Israrul"
+repository-code: "https://github.com/israr-karim/Real-Time-Sign-Language-Recognition-System"
+url: "https://github.com/israr-karim/Real-Time-Sign-Language-Recognition-System"
+date-released: "2026-11-05"
+abstract: "Organized undergraduate sign-language video-modeling experiments with ViViT and VideoMAE. Historical training and evaluation results remain unverified; limitations and source provenance are documented."

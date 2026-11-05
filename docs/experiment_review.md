@@ -16,7 +16,9 @@ These are historical observations, not newly verified benchmarks. BLEU is shown 
 
 The gloss notebook trains on the `gloss` column. Gloss sequences annotate signs; they are a different target from natural-language sentence translation. Its cosine code embeds whole sentences/sequences rather than computing word-by-word alignment.
 
-All available task metrics should be included when discussing performance. Choosing embedding similarity because sequence metrics are unfavorable does not establish recognition or translation quality.
+As checked on 2026-11-05, the [sentence-embedding checkpoint's model card](https://huggingface.co/sentence-transformers/distilbert-base-nli-stsb-mean-tokens) marks it deprecated and warns about embedding quality. This is an additional reason to reassess the supplementary metric; it does not establish the cause of the historical results.
+
+All available task metrics should be included when discussing performance. Embedding similarity is supplementary and does not override poor sequence-level results.
 
 ## Findings affecting validity
 
