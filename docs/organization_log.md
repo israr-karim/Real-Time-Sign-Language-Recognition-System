@@ -13,5 +13,6 @@
 - Added an original-to-recreated filename map, source hashes, and definition provenance.
 - Added a standard-library overview notebook and formatting/schema validation tooling.
 - Documented historical metrics, known limitations, and the next experimental repairs.
+- Made definition fingerprints independent of Python's `ast.dump` display format, and added hosted validation on Python 3.11 and 3.14.
 
 The original downloaded notebook files were left unchanged. Original output streams are not included; aggregate observations are preserved in the experiment review and results JSON. No training result was regenerated or improved by this organization work.

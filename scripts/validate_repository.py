@@ -14,6 +14,32 @@ REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 BLACK_MODE = black.Mode(line_length=88, target_versions={black.TargetVersion.PY311})
 
 
+def definition_fingerprint(node: ast.AST) -> str:
+    """Hash syntax consistently across supported Python interpreter versions.
+
+    Python 3.12 added empty type-parameter fields, and ast.dump formatting also
+    differs between releases. Serialize explicit fields to canonical JSON and
+    omit only empty type-parameter fields introduced after Python 3.11.
+    """
+
+    def serialize(value):
+        if isinstance(value, ast.AST):
+            return {
+                "node": type(value).__name__,
+                "fields": {
+                    name: serialize(field)
+                    for name, field in ast.iter_fields(value)
+                    if not (name == "type_params" and not field)
+                },
+            }
+        if isinstance(value, list):
+            return [serialize(item) for item in value]
+        return value
+
+    canonical = json.dumps(serialize(node), sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(canonical.encode()).hexdigest()
+
+
 def validate_notebooks() -> tuple[int, int]:
     """Validate schemas, syntax, formatting, and cleared runtime state."""
     notebook_count = 0
@@ -61,9 +87,7 @@ def validate_definition_provenance() -> int:
         ]
         if len(definitions) != 1:
             raise ValueError(f"Ambiguous definition: {module_path}: {record['class']}")
-        digest = hashlib.sha256(
-            ast.dump(definitions[0], include_attributes=False).encode()
-        ).hexdigest()
+        digest = definition_fingerprint(definitions[0])
         if digest != record["ast_sha256"]:
             raise ValueError(
                 f"Extracted class changed; review and update provenance: "

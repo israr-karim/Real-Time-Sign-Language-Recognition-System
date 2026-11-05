@@ -82,252 +82,253 @@
       "original_cell": 11,
       "class": "HandUpperBodyAttention",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "d04c353ea1b5737b1f1d6165e22b49dfdfce5d899ff3f967566f27dc5a1c83bb"
+      "ast_sha256": "bcfe03b96895104f4015e9c285695fd436e37547228fd7e9cafef94738052b3f"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 11,
       "class": "SpatialAttention",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "520261fc6b237c23f192dd23ef29020f4775b7316e1a5b45d38b7bac7580a9bf"
+      "ast_sha256": "20459084dd8dfd0b3a4820c8f20c516883c6363381295ec30fc04a6c85b2984c"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 11,
       "class": "TemporalSkipConnection",
       "module": "src/sign_language_lab/vivit_translation.py",
-      "ast_sha256": "51273894fadb40ce1e4ead94cc10672580539afb6997e86cf0b7d5205bf55a93"
+      "ast_sha256": "9a00d926d9065d68d4760d420bf2e356a76528c7588c12a404de3f436ec38bc7"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 11,
       "class": "PositionalEncoding",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "862d6f723f45b86dcc940bc02cb05c58ca10bb1ec31d4dc1b4a18a9752299223"
+      "ast_sha256": "709c568d821f27caef73e27c703a5f1679be91a9f160a0711f2abe58e041482b"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 11,
       "class": "EnhancedPositionalEncoding",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "d60a3bd6483a46dd11626a8514ab482d4d6286e38ea9517cc895c30f36666666"
+      "ast_sha256": "530fe309c3148e1413ad253a7390b97264855782a553a7241d3f097b6c47be3e"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 12,
       "class": "VivitEncoderWithTemporalModel",
       "module": "src/sign_language_lab/vivit_translation.py",
-      "ast_sha256": "c0fb37f73eecde1302b8e2da84bd53d8cb62becfbb566216c064a6f131b87bad"
+      "ast_sha256": "cb59d2e824f424d6466f0841bbc6cf5ca173c26b618c6b3f05875539b519cc1b"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 16,
       "class": "SignLanguageDecoder",
       "module": "src/sign_language_lab/vivit_translation.py",
-      "ast_sha256": "3d4206a064ac768573d7cbbb2c1ae74a44d9515701a5121fdbf3d5087d7c9f7b"
+      "ast_sha256": "08ae247b3cbef6e0c0215188e8f15344ec7da1fb906babc3892f4bc48b2f0c3d"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 16,
       "class": "SignLanguageTranslationModel",
       "module": "src/sign_language_lab/vivit_translation.py",
-      "ast_sha256": "e675e007b971f86bff56c02ed431cba11ab483e6baea8e0232e35e1e8f3af00a"
+      "ast_sha256": "2efeb4e9ceb93e09279c96437e4d15212219425d92fd64a83852fcceb037c61d"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 16,
       "class": "SignLanguageTranslationLoss",
       "module": "src/sign_language_lab/losses.py",
-      "ast_sha256": "99a885159069acd8ed77411109bb65347eef1da69d00a9f269b7b7785252c8cf"
+      "ast_sha256": "07f47582bb26a6ea45a1413aadc59a85217599feb332be62aaef309cb58ee738"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 18,
       "class": "LabelSmoothingLoss",
       "module": "src/sign_language_lab/losses.py",
-      "ast_sha256": "31b0537ba4012a2ecad9171b0b809985492108e84eb0e08152783158f0a6ea91"
+      "ast_sha256": "407fdcdca0ca6fd6b886072947b853def24ab56f2b62e8501dfb796a5ce45594"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 18,
       "class": "ConsistencyLoss",
       "module": "src/sign_language_lab/losses.py",
-      "ast_sha256": "84d7a5684674bc5e03c81ecf0165597562eca0d16f45375dd874c303cb72378c"
+      "ast_sha256": "12ddcfed8b289f9fb88e7f9bfd8904e5c6fc88eff4444e617031cdc8e3656291"
     },
     {
       "original_file": "Vivit2.0_fff.ipynb",
       "original_cell": 18,
       "class": "TemporalAttention",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "29fda37aee1eecc98bd3602ec001d09ea92a9915c38aef80e145d9eaad2e28d3"
+      "ast_sha256": "f9be20f3c9338bf17d7172045183e297d3d9885c3bc3ce07c44878a8aea8c25f"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 8,
       "class": "HandUpperBodyAttention",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "d04c353ea1b5737b1f1d6165e22b49dfdfce5d899ff3f967566f27dc5a1c83bb"
+      "ast_sha256": "bcfe03b96895104f4015e9c285695fd436e37547228fd7e9cafef94738052b3f"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 8,
       "class": "SpatialAttention",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "520261fc6b237c23f192dd23ef29020f4775b7316e1a5b45d38b7bac7580a9bf"
+      "ast_sha256": "20459084dd8dfd0b3a4820c8f20c516883c6363381295ec30fc04a6c85b2984c"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 8,
       "class": "TemporalSkipConnection",
       "module": "src/sign_language_lab/vivit_gloss_recognition.py",
-      "ast_sha256": "cff412aa5dc3b1c7b8e6bcb2f86d3bbeb8f44b3de8b39c77dc6b445104a309d5"
+      "ast_sha256": "2233573ba07e0cffabdc823f367b7ebbacba448a9a9c42f06d5c04c37989273c"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 8,
       "class": "PositionalEncoding",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "862d6f723f45b86dcc940bc02cb05c58ca10bb1ec31d4dc1b4a18a9752299223"
+      "ast_sha256": "709c568d821f27caef73e27c703a5f1679be91a9f160a0711f2abe58e041482b"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 8,
       "class": "EnhancedPositionalEncoding",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "d60a3bd6483a46dd11626a8514ab482d4d6286e38ea9517cc895c30f36666666"
+      "ast_sha256": "530fe309c3148e1413ad253a7390b97264855782a553a7241d3f097b6c47be3e"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 9,
       "class": "VivitEncoderWithTemporalModel",
       "module": "src/sign_language_lab/vivit_gloss_recognition.py",
-      "ast_sha256": "c87c2de791849ca1ff2f0687a8feb11a6f3fec197027f10590f7aad616845da0"
+      "ast_sha256": "d9088d5d4c89ea9a0cd3ca4710635109f34998096c417a8767c8bfd6fe006139"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 13,
       "class": "SignLanguageDecoder",
       "module": "src/sign_language_lab/vivit_gloss_recognition.py",
-      "ast_sha256": "0823677a57bef632bdf05fc04f90fbbe038bae0b219c5e982f950aa55bc807bf"
+      "ast_sha256": "2197060b020e9739eee566037245d474ff499902502b08f02ccbc82a25984075"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 13,
       "class": "SignLanguageTranslationModel",
       "module": "src/sign_language_lab/vivit_gloss_recognition.py",
-      "ast_sha256": "7e9bc8c2a57005431f008dbc68ab6c25989dae339bac0788a9ebcdaee002a31a"
+      "ast_sha256": "30b6cd0f25dd83b60e552fb9ccb31c8402c8d8c55ebe0227399b5315667d6fa0"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 13,
       "class": "SignLanguageTranslationLoss",
       "module": "src/sign_language_lab/losses.py",
-      "ast_sha256": "99a885159069acd8ed77411109bb65347eef1da69d00a9f269b7b7785252c8cf"
+      "ast_sha256": "07f47582bb26a6ea45a1413aadc59a85217599feb332be62aaef309cb58ee738"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 14,
       "class": "LabelSmoothingLoss",
       "module": "src/sign_language_lab/losses.py",
-      "ast_sha256": "31b0537ba4012a2ecad9171b0b809985492108e84eb0e08152783158f0a6ea91"
+      "ast_sha256": "407fdcdca0ca6fd6b886072947b853def24ab56f2b62e8501dfb796a5ce45594"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 14,
       "class": "ConsistencyLoss",
       "module": "src/sign_language_lab/losses.py",
-      "ast_sha256": "84d7a5684674bc5e03c81ecf0165597562eca0d16f45375dd874c303cb72378c"
+      "ast_sha256": "12ddcfed8b289f9fb88e7f9bfd8904e5c6fc88eff4444e617031cdc8e3656291"
     },
     {
       "original_file": "vivit_loss_kom_initialbuild_working_with_cosinesim.ipynb",
       "original_cell": 14,
       "class": "TemporalAttention",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "29fda37aee1eecc98bd3602ec001d09ea92a9915c38aef80e145d9eaad2e28d3"
+      "ast_sha256": "f9be20f3c9338bf17d7172045183e297d3d9885c3bc3ce07c44878a8aea8c25f"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 3,
       "class": "HandUpperBodyAttention",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "d04c353ea1b5737b1f1d6165e22b49dfdfce5d899ff3f967566f27dc5a1c83bb"
+      "ast_sha256": "bcfe03b96895104f4015e9c285695fd436e37547228fd7e9cafef94738052b3f"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 3,
       "class": "SpatialAttention",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "520261fc6b237c23f192dd23ef29020f4775b7316e1a5b45d38b7bac7580a9bf"
+      "ast_sha256": "20459084dd8dfd0b3a4820c8f20c516883c6363381295ec30fc04a6c85b2984c"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 3,
       "class": "TemporalSkipConnection",
       "module": "src/sign_language_lab/videomae_experiment.py",
-      "ast_sha256": "cff412aa5dc3b1c7b8e6bcb2f86d3bbeb8f44b3de8b39c77dc6b445104a309d5"
+      "ast_sha256": "2233573ba07e0cffabdc823f367b7ebbacba448a9a9c42f06d5c04c37989273c"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 3,
       "class": "PositionalEncoding",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "862d6f723f45b86dcc940bc02cb05c58ca10bb1ec31d4dc1b4a18a9752299223"
+      "ast_sha256": "709c568d821f27caef73e27c703a5f1679be91a9f160a0711f2abe58e041482b"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 3,
       "class": "EnhancedPositionalEncoding",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "d60a3bd6483a46dd11626a8514ab482d4d6286e38ea9517cc895c30f36666666"
+      "ast_sha256": "530fe309c3148e1413ad253a7390b97264855782a553a7241d3f097b6c47be3e"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 4,
       "class": "VideoMAEEncoderWithTemporalModel",
       "module": "src/sign_language_lab/videomae_experiment.py",
-      "ast_sha256": "6d02bf18d31f5c42a9399d8935f59cccbd0f5966870ba989e91d7fb9e1c0cc67"
+      "ast_sha256": "e3784bc3bd6f862219f340326058111a3872e3499421cc73b7df0eeafa4c691f"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 10,
       "class": "SignLanguageDecoder",
       "module": "src/sign_language_lab/videomae_experiment.py",
-      "ast_sha256": "0906695345074eba89a92443a61780c2a3796f87b25274b72ea630c40611997a"
+      "ast_sha256": "f89c489fd5aaedef935a09054ad6c7c1657b5aeb352cb7f25f1f91b3f1546e4b"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 10,
       "class": "SignLanguageTranslationModel",
       "module": "src/sign_language_lab/videomae_experiment.py",
-      "ast_sha256": "7e9bc8c2a57005431f008dbc68ab6c25989dae339bac0788a9ebcdaee002a31a"
+      "ast_sha256": "30b6cd0f25dd83b60e552fb9ccb31c8402c8d8c55ebe0227399b5315667d6fa0"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 10,
       "class": "SignLanguageTranslationLoss",
       "module": "src/sign_language_lab/losses.py",
-      "ast_sha256": "99a885159069acd8ed77411109bb65347eef1da69d00a9f269b7b7785252c8cf"
+      "ast_sha256": "07f47582bb26a6ea45a1413aadc59a85217599feb332be62aaef309cb58ee738"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 11,
       "class": "LabelSmoothingLoss",
       "module": "src/sign_language_lab/losses.py",
-      "ast_sha256": "31b0537ba4012a2ecad9171b0b809985492108e84eb0e08152783158f0a6ea91"
+      "ast_sha256": "407fdcdca0ca6fd6b886072947b853def24ab56f2b62e8501dfb796a5ce45594"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 11,
       "class": "ConsistencyLoss",
       "module": "src/sign_language_lab/losses.py",
-      "ast_sha256": "84d7a5684674bc5e03c81ecf0165597562eca0d16f45375dd874c303cb72378c"
+      "ast_sha256": "12ddcfed8b289f9fb88e7f9bfd8904e5c6fc88eff4444e617031cdc8e3656291"
     },
     {
       "original_file": "VideoMAE.ipynb",
       "original_cell": 11,
       "class": "TemporalAttention",
       "module": "src/sign_language_lab/attention.py",
-      "ast_sha256": "29fda37aee1eecc98bd3602ec001d09ea92a9915c38aef80e145d9eaad2e28d3"
+      "ast_sha256": "f9be20f3c9338bf17d7172045183e297d3d9885c3bc3ce07c44878a8aea8c25f"
     }
-  ]
+  ],
+  "ast_hash_format": "canonical-json-v1-empty-type-params-omitted"
 }
