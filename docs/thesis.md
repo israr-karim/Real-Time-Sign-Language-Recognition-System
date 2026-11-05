@@ -1,10 +1,12 @@
 # Associated undergraduate thesis
 
-**Title:** Advancements in Real-Time Sign Language Translation  
-**Institution:** BRAC University, Department of Computer Science and Engineering  
-**Date:** February 2025  
-**Document type:** Undergraduate thesis, 70 PDF pages  
-**Supervisor:** Farig Yousuf Sadeque
+| Field | Detail |
+| --- | --- |
+| Title | Advancements in Real-Time Sign Language Translation |
+| Institution | BRAC University, Department of Computer Science and Engineering |
+| Date | February 2025 |
+| Document type | Undergraduate thesis, 70 PDF pages |
+| Supervisor | Farig Yousuf Sadeque |
 
 Authors, in the order printed in the thesis:
 
